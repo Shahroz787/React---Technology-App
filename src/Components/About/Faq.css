@@ -1,0 +1,52 @@
+.btn3 {
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.content {
+  margin-bottom: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+
+.btn3 {
+  width: 45% !important;
+}
+
+/* Css for responsive of mediaum devices */
+@media screen and (max-width: 991px) {
+  .content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+  }
+  .btn3 {
+    width: 60%;
+  }
+}
+
+/* Css for responsive of small devices */
+@media screen and (max-width: 768px) {
+  .faqs {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+  }
+  .faqs h4 {
+    font-size: 1.1rem;
+  }
+
+  .faqs h2 {
+    font-size: 1.5rem !important;
+  }
+  .faqs .desc {
+    font-size: 0.9rem !important;
+  }
+}

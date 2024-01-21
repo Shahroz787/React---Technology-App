@@ -1,0 +1,17 @@
+/* Css for responsive of mediaum devices */
+@media screen and (max-width: 991px) {
+  #footer__area {
+    margin-bottom: -45rem;
+  }
+}
+
+/* Css for responsive of small devices */
+@media screen and (max-width: 768px) {
+  #footer__area {
+    margin-top: 5rem !important;
+  }
+
+  #footer__area p {
+    font-size: 0.9rem;
+  }
+}

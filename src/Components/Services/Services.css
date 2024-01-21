@@ -1,0 +1,34 @@
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 100%;
+  height: 12rem !important;
+}
+
+.btn2 {
+  width: 8rem !important;
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+  font-size: 16px;
+  letter-spacing: 1px !important;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: 0.3s ease-out;
+  color: var(--color-primary) !important;
+  border: 2px solid var(--color-primary-variant) !important;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: var(--color-primary-variant) !important;
+  color: #fff !important;
+}
+
+.title__text {
+  font-weight: 600 !important;
+}
+
+/* Css for responsive of mediaum devices */
+@media screen and (max-width: 991px) {
+  
+}
